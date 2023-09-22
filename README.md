@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=bA7YMGRwfFM
 
 # Project Overview 
 
-![img.png](public/the project.png)
+![img.png](public/the_project.png)
 
 # Install Vite + Typescript + React 
 https://vitejs.dev/guide/
