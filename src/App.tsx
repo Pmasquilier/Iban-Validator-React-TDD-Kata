@@ -1,11 +1,15 @@
 import './index.css'
-import {Button} from "./design-system";
+import { ValidationPage } from './validation/useCases/validate/ValidationPage';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+
+const queryClient = new QueryClient();
+
 function App() {
 
   return (
-      <Button>
-          Hello
-      </Button>
+      <QueryClientProvider client={queryClient}>
+          <ValidationPage />
+        </QueryClientProvider>
   )
 }
 

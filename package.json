@@ -10,11 +10,13 @@
     "preview": "vite preview",
     "test:unit": "vitest run",
     "test:unit:coverage": "vitest run --coverage",
-    "test:integration": "cypress open --component --browser electron",
-    "test:e2e": "cypress open --e2e --browser electron",
-    "test:e2e:focus": "cypress open --e2e --browser electron --env TAGS=@focus"
+    "test:integration": "cypress open --component --browser chrome",
+    "test:e2e": "cypress open --e2e --browser chrome",
+    "test:e2e:focus": "cypress open --e2e --browser chrome --env TAGS=@focus"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.35.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

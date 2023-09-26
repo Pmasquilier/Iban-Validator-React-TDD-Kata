@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=bA7YMGRwfFM
 # Project Overview 
 
 ![img.png](public/the_project.png)
-
+»
 # Install Vite + Typescript + React 
 https://vitejs.dev/guide/
 
@@ -113,4 +113,20 @@ module.exports = {
 ## Step 6: Configure Editor on save
 Ensure your editor is configured to format on save. 
 
+
+# High-level test coverage critical user journey (CUJ)
+
+firstable we need to define the critical user journey (CUJ) of our application.
+
+```text
+Feature: Validate International Bank Account Number (IBAN)
+
+I want to know the IBAN details
+
+Scenario: Validate IBAN
+Given I open a validation page
+When I provide an IBAN
+Then I see validation details
+
+```
 
